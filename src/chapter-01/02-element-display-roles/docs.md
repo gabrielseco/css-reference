@@ -5,7 +5,7 @@ Existen dos tipos básicos de display
 - block
 - inline
 
-[Demo](#)
+## [Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-01/02-element-display-roles/index.html)
 
 ## Block elements
 
