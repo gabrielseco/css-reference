@@ -1,5 +1,7 @@
 # Descendant selectors
 
+## [Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/06-descendant-selectors/index.html)
+
 El selector descendente no tiene noción de proximidad.
 
 En el siguiente ejemplo el div aside cuando no tiene la clase help le pondría un color gray al span.
