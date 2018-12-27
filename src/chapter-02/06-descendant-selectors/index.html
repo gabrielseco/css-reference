@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    h1 em {
+      color: gray;
+    }
+
+    ul ol ul em {
+      color: gray;
+    }
+
+    .sidebar {
+      background: blue;
+    }
+
+    .sidebar a:link {
+      color: white;
+    }
+
+    main {
+      background: white;
+    }
+
+    main a:link {
+      color: blue;
+    }
+
+    div:not(.help) span {
+      color: gray;
+    }
+
+    div.help span {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Meerkat <em>Central</em></h1>
+  <ul>
+    <li>It's a list</li>
+    <li>A right smart list
+      <ol>
+        <li>Within, another list
+          <ul>
+            <li>This is <em>deep</em></li>
+            <li>So <em>very</em> deep</li>
+          </ul>
+        </li>
+        <li>A list of lists to see</li>
+      </ol>
+    </li>
+    <li>And all the lists for me!</li>
+  </ul>
+
+  <table>
+    <tr>
+      <td class="sidebar">
+        <a href="1">css-tricks.com</a><br>
+        <a href="1">lea.verou.me</a><br>
+        <a href="1">meyerweb.com</a><br>
+        <a href="1">tantek.com</a><br>
+        <a href="1">zeldman.com</a><br>
+      </td>
+      <td class="main">
+        <h1>Blogs</h1>
+        <p>
+          These are the <a href="2">web logs</a> (“blogs”) I visit a lot. They’re all written by people who know a lot
+          about Web design and <a href="2">CSS</a> in general. By reading them I can get a sense of the trends in
+          design and thinking about document structure.
+        </p>
+      </td>
+  </table>
+
+  <div class="help">
+    <div class="aside">
+      This text contains <span>a span element within</span>
+    </div>
+  </div>
+
+</body>
+
+</html>
