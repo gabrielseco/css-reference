@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    input[type="email"]:focus {
+      background-position: 100% 50%;
+      background-repeat: no-repeat;
+    }
+
+    input[type="email"]:focus:invalid {
+      background-image: url(warning.png);
+    }
+
+    input[type="email"]:focus:valid {
+      background-image: url(checkmark.png);
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <input placeholder="email" type="email">
+  </form>
+</body>
+
+</html>

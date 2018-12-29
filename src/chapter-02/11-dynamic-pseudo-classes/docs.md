@@ -37,3 +37,21 @@ Si cambiamos los tamaños de fuentes con una pseudoclase podemos crear un reflow
 :default --> se refiere a un radio button, checkbox u opción que ha sido seleccionada por defecto.
 
 [Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/default.html)
+
+:required ---> se refiere a un elemento en el que el usuario tiene que introducir el valor.
+
+:optional --> se refiere a un elemento en el que no necesita introducir el valor.
+
+[Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/required.html)
+
+:valid --> se refiere si input es válido
+:invalid --> se refiere si un input es inválido
+
+[Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/valid.html)
+
+:in-range --> se refiere un input que está entre el rango mínimo y el máximo
+:out-of-range --> se refiere a un input que se encuentra fuera del rango mínimo y el máximo.
+
+No hay soporte para ie 10 y 11 😔
+
+[Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/range.html)
