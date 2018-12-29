@@ -11,8 +11,11 @@ Dynamic pseudoclasses son aquellas con las que aplicamos estilos cuando cambia u
 ## User action pseudoclasses
 
 :focus --> se refiere a cualquier elemento que tiene el foco.
+
 :hover --> se refiere a cualquier elemento cuando el ratón pasa por encima
-:active --> se refiere a cualquier elemento que ha sido activado por el usuario un click en un ancla o cuando un botón está siendo presionado.
+
+:active --> se refiere a cualquier elemento que ha sido activado por el usuario un
+click en un ancla o cuando un botón está siendo presionado.
 
 [DEMO](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/user-action.html)
 
@@ -45,11 +48,13 @@ Si cambiamos los tamaños de fuentes con una pseudoclase podemos crear un reflow
 [Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/required.html)
 
 :valid --> se refiere si input es válido
+
 :invalid --> se refiere si un input es inválido
 
 [Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/valid.html)
 
 :in-range --> se refiere un input que está entre el rango mínimo y el máximo
+
 :out-of-range --> se refiere a un input que se encuentra fuera del rango mínimo y el máximo.
 
 No hay soporte para ie 10 y 11 😔
@@ -57,6 +62,7 @@ No hay soporte para ie 10 y 11 😔
 [Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/range.html)
 
 :read-write --> Se refiere a un input que es editable
+
 :read-only --> Se refiere a un input que no puede ser editado.
 
 [Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/readonly.html)
