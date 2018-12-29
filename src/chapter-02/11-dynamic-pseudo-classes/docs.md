@@ -55,3 +55,8 @@ Si cambiamos los tamaños de fuentes con una pseudoclase podemos crear un reflow
 No hay soporte para ie 10 y 11 😔
 
 [Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/range.html)
+
+:read-write --> Se refiere a un input que es editable
+:read-only --> Se refiere a un input que no puede ser editado.
+
+[Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-02/11-dynamic-pseudo-classes/readonly.html)
