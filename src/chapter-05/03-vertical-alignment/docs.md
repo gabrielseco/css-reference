@@ -44,3 +44,8 @@ vertical-align: text-bottom se rifiere el bottom del texto de una línea.
 ### top
 
 En contrario a bottom y text-bottom tenemos top y text-top
+[Demo](https://htmlpreview.github.io/?https://github.com/gabrielseco/css-reference/blob/master/src/chapter-05/03-vertical-alignment/top.html)
+
+### middle
+
+Hace lo que se supone alinearlo al medio.
